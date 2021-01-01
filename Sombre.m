@@ -5,5 +5,10 @@
 @implementation Sombre
 
 
+- (BOOL) menuShouldShowIcon
+{
+  return NO;
+}
+
 @end
 
