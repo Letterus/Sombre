@@ -1,8 +1,9 @@
 {
     GSThemeAuthors = (
-	"Bertrand Dekoninck"
+	"Bertrand Dekoninck",
+	"Johannes Brakensiek"
     );
-    GSThemeDetails = "A dark theme with a blue accent and the Rik icons.";
+    GSThemeDetails = "A dark theme with a Manjaro accent and the Rik icons.";
     GSThemeDomain = {
 	GSBackHandlesWindowDecorations = YES;
 	GSMenuBarHeight = 26;
