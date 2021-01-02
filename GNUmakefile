@@ -10,7 +10,6 @@ $(BUNDLE_NAME)_PRINCIPAL_CLASS = Sombre
 
 $(BUNDLE_NAME)_OBJC_FILES = \
 		Sombre.m \
-		NSMenu+Sombre.m \
 		Sombre+Button.m \
 		SombreScrollerKnobSlotCell.m \
 		SombreScrollerKnobCell.m \
