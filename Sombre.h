@@ -1,13 +1,11 @@
-#import <AppKit/AppKit.h>
-#import <Foundation/NSUserDefaults.h>
-#import <GNUstepGUI/GSTheme.h>
+#include <GNUstepGUI/GSTheme.h>
+#include <AppKit/AppKit.h>
+#include <Foundation/Foundation.h>
 
 @interface Sombre: GSTheme
 {  
+  id menuRegistry;
   NSUserDefaults *defaults;
 }
-- (void) drawPathButton: (NSBezierPath*) path
-                     in: (NSCell*)cell
-                  state: (GSThemeControlState) state;
 
 @end

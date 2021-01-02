@@ -8,4 +8,9 @@
 
 - (NSColor*) buttonColorInCell:(NSCell*) cell
                       forState: (GSThemeControlState) state;
+                      
+- (void) drawPathButton: (NSBezierPath*) path
+                     in: (NSCell*)cell
+                  state: (GSThemeControlState) state;
+
 @end

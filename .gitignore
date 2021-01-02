@@ -3,5 +3,10 @@
 *.swp
 .vimrc
 Sombre_binary.theme
+SombreManjaro.theme
+Sombre.theme
 obj
 tags
+.kdev4
+Sombre.backup.theme
+Sombre.kdev4
